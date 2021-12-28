@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 class TestClass:
     def test_something(self):
-        driver = webdriver.Chrome(executable_path='../../chromedriver.exe')
+        driver = webdriver.Chrome(executable_path='./chromedriver.exe')
         driver.get("http://151.80.70.42:3000/")
         create_button = driver.find_element(By.CSS_SELECTOR, 'i.mdi-content-add')
         create_button.click()

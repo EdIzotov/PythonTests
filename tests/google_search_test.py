@@ -7,7 +7,7 @@ from time import sleep
 
 class TestGoogle:
     def test_simple_search(self):
-        driver = webdriver.Chrome(executable_path='../../chromedriver.exe')
+        driver = webdriver.Chrome(executable_path='./chromedriver.exe')
         search_word = 'cats'
         pages = 5
         driver.get('http://google.com.ua/')
